@@ -1,4 +1,4 @@
-FROM gentoo/stage3-amd64:latest
+FROM necrose99/gentoo-docker-x86
 
 # installing witchcraft deps
 RUN equo i sudo dev-perl/Class-Load dev-perl/Class-Load-XS dev-perl/List-MoreUtils dev-perl/DateTime-Local dev-perl/libwww-perl App-cpanminus
